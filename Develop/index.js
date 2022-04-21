@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-const inquire = require('inquirer');
+const inquirer = require('inquirer');
 const fs = require('fs');
 // TODO: import the generateMarkdown function from utils/generateMarkdown.js
 const generateMarkdown = require('./utils/generateMarkdown');
@@ -16,7 +16,9 @@ const init = () => {
      
     ])
     .then((answers => {
-        console.log(answers)
+        // console.log(answers)
+        fs.writeFile('projectREADME.md', generateMarkdown(answers), (err) =>
+        err ? console.log(err) : console.log('Successfully created your project README!'))
     }));
 }
 
