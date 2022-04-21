@@ -1,37 +1,35 @@
-# dsf
+# Read Me Generator
 
- <img src = "https://img.shields.io/badge/License-GNU AGPLv3-blue" />
+ <img src = "https://img.shields.io/badge/License-Mozilla Public License 2.0-blue" />
 
   ## Description: 
-  dsf
+  This project generates a read me based on user input for prompts in the command line
 
   ## Table of Contents: 
-  1. Installation
-  2. Usage
-  3. License
-  4. Contributing
-  5. Tests
-  6. Questions
+  ### Installation
+  ### Usage
+  ### License
+  ### Contributing
+  ### Tests
+  ### Questions
   
-      
-
   ## Installation: 
-     gdf
+     user needs to install npm inquire for the prompts to work
 
   ## Usage: 
-     
+     Donqload the code from the repo. run the index.html using node in the terminal. Answer each of the prompts and your input on the command line will become the content of your readme sections
 
   ## License: 
-  Licensed under GNU AGPLv3 
+  Licensed under Mozilla Public License 2.0 
 
   ## Contributing: 
-  dfg
+  dont contribute
 
   ## Tests: 
-  dsfg
+  n/a
 
   ## Questions: 
 
-  ### My Github profile: dfg
+  ### My Github profile: nirav-v
 
-  ### For additional questions reach me at fd
+  ### For additional questions reach me at nirav@gmail
