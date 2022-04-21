@@ -1,13 +1,20 @@
 // TODO: Add code to generate markdown for README given a data object parameter containing the user input.
 function generateMarkdown(data) {
   return `# ${data.title}
-  Description: 
+
+ <img src = "https://img.shields.io/badge/License-${data.license}-blue" />
+
+  ## Description: 
   ${data.description}
 
   ## Table of Contents: 
-  ### Installation
-  ### Usage
-  ### Questions
+  1. Installation
+  2. Usage
+  3. License
+  4. Contributing
+  5. Tests
+  6. Questions
+  
       
 
   ## Installation: 

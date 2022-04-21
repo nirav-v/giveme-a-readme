@@ -56,7 +56,7 @@ const init = () => {
             type: "input",
             message: "Lastly, what is your email?"
         }
-       
+    
     ])
     .then((answers => {
         fs.writeFile('projectREADME.md', generateMarkdown(answers), (err) =>
